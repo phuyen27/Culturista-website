@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top right, #6E45E2, #88D3CE);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    background: linear-gradient(to top right, #6E45E2, #88D3CE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    text-transform: uppercase;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 48%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.create-btn {
+    background-color: #6E45E2;
+    color: #fff;
+}
+
+.create-btn:hover {
+    background-color: #593BB7;
+}
+
+.find-btn {
+    background-color: #88D3CE;
+    color: #fff;
+}
+
+.find-btn:hover {
+    background-color: #75B7B2;
+}
